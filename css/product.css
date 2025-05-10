@@ -1,0 +1,91 @@
+:root {
+  --color-background: #ffffff;
+  --color-soft-yellow: #e0c3fc;
+  --color-hitam: #000000;
+  --color-abu: #c2e9fb;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+.navbar {
+  background-color: var(--color-background);
+}
+
+.navbar .judul-web {
+  color: var(--color-hitam);
+  font-weight: 700;
+  font-size: 1.7rem;
+  font-style: italic;
+}
+
+.navbar .judul-web span {
+  color: var(--color-soft-yellow);
+}
+
+.navbar .navbar-nav .nav-link {
+  color: var(--color-hitam);
+  font-weight: 300;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--color-soft-yellow);
+}
+
+.judul {
+  margin-top: 7rem;
+  font-size: 3rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.brand-section h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.product-card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.product-card {
+  transition: transform 0.3s;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.brand-section {
+  margin-top: 60px;
+}
+
+footer {
+  margin-top: 6rem;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 3rem 0;
+}
+
+.btn-ungu {
+  background-color: var(--color-soft-yellow);
+}
